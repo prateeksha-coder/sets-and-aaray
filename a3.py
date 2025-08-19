@@ -1,5 +1,3 @@
-
-
 import array as arr
 
 # create an array
@@ -12,4 +10,4 @@ print("Number of occurrences of the number 3 in the said array: "+str(array_num.
 # reverse the array 
 array_num.reverse()
 print("Reverse the order of the items:")
-print(str(array_num))
+print((array_num))

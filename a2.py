@@ -1,5 +1,5 @@
-setx = {"green", "blue"}
-sety = {"blue", "yellow"}
+setx = {"green", "blue","orange"}
+sety = {"blue", "yellow","pink"}
 print("Original set elements:")
 print(setx)
 print(sety)
@@ -10,7 +10,7 @@ setc = setx.union(sety)
 print("\nUnion of above sets:")
 print(setc)
 print("Difference")
-print(setx.difference(sety))#set1-set2
+print(sety.difference(setx))#set1-set2
 print("Symmeteric Difference")
-print(setx.symmetric_difference(sety))
+print(sety.symmetric_difference(setx))
 
