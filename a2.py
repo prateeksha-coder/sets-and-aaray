@@ -10,7 +10,7 @@ setc = setx.union(sety)
 print("\nUnion of above sets:")
 print(setc)
 print("Difference")
-print(setx.difference(sety))#set1-set2
+print(sety.difference(setx))#set1-set2
 print("Symmeteric Difference")
 print(sety.symmetric_difference(setx))
 
